@@ -175,3 +175,5 @@ dialog::backdrop { background: rgba(20,14,10,.78); }
 .autor p { margin: 0 0 8px; color: var(--ink2); }
 .autor .mas a { font-family: Cinzel; font-size: 14px; }
 @media (max-width: 760px) { .autores-grid { grid-template-columns: 1fr; } .autor { grid-template-columns: 64px minmax(0,1fr); } .autor .ini { width: 64px; height: 64px; font-size: 22px; } }
+.autor .foto { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; object-position: 50% 25%; border: 2px solid var(--gold); }
+@media (max-width: 760px) { .autor .foto { width: 64px; height: 64px; } }
